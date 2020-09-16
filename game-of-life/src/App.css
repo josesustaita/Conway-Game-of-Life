@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+}
+.Header {
+  display: flex;
+  justify-content: center;
+}
+
+.Main-Board {
+  display: flex;
+  flex-direction: column;
+}
+.Generations {
+  align-self: center;
+}
+
+.Bottom-Row-Buttons {
+  display: flex;
+  flex-direction: row;
+  margin: 16px;
+  justify-content: space-evenly;
+}
