@@ -1,6 +1,5 @@
 import React from "react";
 import Game from "./GameBoard/Game";
-import Button from "./Buttons/Button";
 import "./App.css";
 
 export default function App(props) {
