@@ -1,8 +1,0 @@
-.Button {
-  transition-duration: 0.4s;
-}
-
-.Button:hover {
-  background-color: rgb(3, 83, 16);
-  color: white;
-}

@@ -10,13 +10,8 @@
   display: flex;
   flex-direction: column;
 }
-.Generations {
-  align-self: center;
-}
-
-.Bottom-Row-Buttons {
+.Rules {
   display: flex;
-  flex-direction: row;
-  margin: 16px;
-  justify-content: space-evenly;
+  flex-direction: column;
+  text-align: center;
 }
