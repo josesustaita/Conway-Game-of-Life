@@ -9,9 +9,21 @@
 .Main-Board {
   display: flex;
   flex-direction: column;
+  margin-left: 15px;
 }
 .Rules {
   display: flex;
   flex-direction: column;
   text-align: center;
+}
+
+.Main-Container {
+  display: flex;
+}
+.Numbers {
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  line-height: 2;
+  text-align: left;
 }
