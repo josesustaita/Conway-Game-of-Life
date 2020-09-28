@@ -215,7 +215,7 @@ class Game extends React.Component {
     const { cells, interval, isRunning } = this.state;
     return (
       <div>
-        <p className="Generations">Generations# {this.state.generations}</p>
+        <h4 className="Generations">Generations# {this.state.generations}</h4>
         <div
           // Creates the grid on the board
 
