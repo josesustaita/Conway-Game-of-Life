@@ -16,9 +16,31 @@
 }
 
 .button {
-  margin-left: 12px;
+  display: inline-block;
+  padding: 5px 14px;
+  font-size: 10px;
   cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #0a4d8d;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin: 5px;
 }
+
+.button:hover {
+  background-color: #0e2136;
+}
+
+.button:active {
+  background-color: #0a4d8d;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
 .Generations {
   text-align: center;
 }

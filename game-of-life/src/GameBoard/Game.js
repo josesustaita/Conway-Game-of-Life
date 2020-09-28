@@ -34,7 +34,7 @@ class Game extends React.Component {
     this.rows = HEIGHT / CELL_SIZE;
     this.cols = WIDTH / CELL_SIZE;
 
-    this.board = this.makeEmptyBoard();
+    this.board = this.clearBoard();
   }
 
   // State of Board
@@ -46,7 +46,7 @@ class Game extends React.Component {
     generations: 0,
   };
 
-  makeEmptyBoard() {
+  clearBoard() {
     let board = [];
     for (let y = 0; y < this.rows; y++) {
       board[y] = [];
@@ -123,7 +123,7 @@ class Game extends React.Component {
   // 3. Any live cell with more than three live neighbors dies, as if by overpopulation.
   // 4. Any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction.
   runIteration() {
-    let newBoard = this.makeEmptyBoard();
+    let newBoard = this.clearBoard();
 
     for (let y = 0; y < this.rows; y++) {
       for (let x = 0; x < this.cols; x++) {
@@ -196,7 +196,7 @@ class Game extends React.Component {
   };
 
   handleClear = () => {
-    this.board = this.makeEmptyBoard();
+    this.board = this.clearBoard();
     this.setState({ cells: this.makeCells() });
     this.setState({ generations: 0 });
   };
